@@ -9,3 +9,15 @@ Feature: Je me connecte à l'application OrangeHRM
     And Je saisie le mot de passe "admin123"
     And Je clique sur le bouton Login
     Then Je me redirige vers la page home "Dashboard"
+  
+  @deconnexion 
+   Scenario:  vérifier la deconnexion 
+    Given Je me connecte à l'application OrangeHRM 
+    When Je saisie le username "Admin"
+    And Je saisie le mot de passe "admin123"
+    And Je clique sur le bouton Login
+    Then Je me redirige vers la page home "Dashboard"
+    And   
+  
+
+    

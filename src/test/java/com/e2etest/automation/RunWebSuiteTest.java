@@ -9,7 +9,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @CucumberOptions(
 		features = {"srcc/spec/features"},
 		plugin = {"pretty", "html:target/cucumber-report.html"},
-		tags = ("@authentification"),
+		tags = ("@deconnexion"),
 		monochrome = true, 
 		snippets = CAMELCASE
 		)
